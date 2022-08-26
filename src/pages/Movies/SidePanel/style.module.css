@@ -1,0 +1,66 @@
+.wrapper {
+    position: fixed;
+    right: 0;
+    top: 102px;
+    width: 500px;
+    height: 100%;
+    z-index: 5;
+    background-color: #3d5164;
+    padding: 40px 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    right: 20px;
+    z-index: 6;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+}
+
+.close:after,
+.close:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.close:after {
+    transform: translate(-50%, -50%) rotate(130deg);
+}
+.close:before {
+    transform: translate(-50%, -50%) rotate(230deg);
+}
+
+.wrapper > img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.title {
+    margin-top: 30px;
+    font-size: 26px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.overview {
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.desc {
+    margin: 10px 0;
+}
+.desc span {margin-left: 10px}

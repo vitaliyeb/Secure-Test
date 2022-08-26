@@ -1,0 +1,29 @@
+.heading {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    display: flex;
+    column-gap: 10px;
+}
+
+.wrapper label {
+    color: #fff;
+}
+
+.wrapper span{
+    color: #cf2020;
+}
+
+.wrapper input {
+    width: 100%;
+    margin-top: 5px;
+    background-color: #617d99;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.wrapper input::placeholder {
+    color: rgba(255, 255, 255, 0.59);
+}
